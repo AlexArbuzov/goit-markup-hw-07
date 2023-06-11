@@ -995,6 +995,11 @@ body {
     color: var(--primary-text-color);
   }
 
+  .team-pictures {
+    width: 100%;
+    height: 100%;
+  }
+ 
   .team-list {
     display: flex;
     align-items: center;

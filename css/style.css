@@ -756,6 +756,39 @@ body {
   .customers-list-item {
     width: calc((100% - 48px) / 3);
   }
+
+  /* Footer */
+
+  .footer-wrapper {
+    width: 584px;
+    column-gap: 24px;
+    justify-content: flex-start;
+  }
+
+  .footer-left-side {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .footer-right-side {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .footer-sub-side {
+    text-align: left;
+  }
+
+  .footer-sub-form {
+    flex-direction: row;
+    column-gap: 24px;
+  }
+
+  .footer-sub-form-input {
+    min-width: 264px;
+  }
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>Desctop<<<<<<<<<<<< */
@@ -861,6 +894,21 @@ body {
 
   .customers-list-item {
     width: calc((100% - 120px) / 6);
+  }
+
+  /* Footer */
+
+  .footer-wrapper {
+    width: 1158px;
+    column-gap: 0;
+  }
+
+  .footer-left-side {
+    margin-right: 120px;
+  }
+
+  .footer-right-side {
+    margin-right: 80px;
   }
 }
 

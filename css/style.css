@@ -31,6 +31,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -380,6 +382,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
@@ -881,22 +885,6 @@ body {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>Tablet<<<<<<<<<<<<<<<<<<<<<< */
 @media screen and (min-width: 768px) {
-  .current-page {
-    color: #404bbf;
-    position: relative;
-  }
-
-  .current-page::after {
-    content: "";
-    position: absolute;
-    bottom: -1px;
-    right: 0;
-    width: 100%;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-  }
-
   .mobile-menu-open-btn {
     display: none;
   }
@@ -915,6 +903,7 @@ body {
   }
 
   .menu-link {
+    color: var(--primary-text-color);
     position: relative;
     font-weight: 500;
     font-size: 16px;
@@ -952,6 +941,21 @@ body {
     font-style: normal;
   }
 
+  .current-page {
+    color: #404bbf;
+    position: relative;
+  }
+
+  .current-page::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
   /* Hero */
   .hero-title {
     margin: 0 auto 36px;
@@ -1040,6 +1044,7 @@ body {
   .adress-list {
     display: flex;
     flex-direction: row;
+    gap: 40px;
   }
 
   /* Features */
@@ -1060,7 +1065,6 @@ body {
 
   .features-list {
     display: flex;
-    flex-direction: row;
   }
 
   .features-item {

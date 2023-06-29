@@ -679,7 +679,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 392px;
+  max-width: 408px;
   min-height: 576px;
   padding: 72px 16px 24px;
   background: #fcfcfc;
@@ -687,6 +687,10 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal {
+  width: 91%;
 }
 
 .modal-close-btn {
